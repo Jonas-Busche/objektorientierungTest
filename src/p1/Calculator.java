@@ -2,7 +2,7 @@ package p1;
 
 public class Calculator {
 
-    public String name;
+    private String name;
     private int lastResult;
     public static String s = "Taschenrechner";
 
@@ -21,6 +21,14 @@ public class Calculator {
 
     public void test() {
         System.out.println("Test: " + this.name);
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public static void getTutorial() {
