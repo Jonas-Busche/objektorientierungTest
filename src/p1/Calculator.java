@@ -3,7 +3,7 @@ package p1;
 public class Calculator {
 
     private String name;
-    private int lastResult;
+    protected int lastResult;
     public static String s = "Taschenrechner";
 
     public Calculator(String const_name) {

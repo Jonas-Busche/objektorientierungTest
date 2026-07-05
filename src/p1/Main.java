@@ -27,6 +27,13 @@ public class Main {
         Calculator.s = "hahahaha";
         System.out.println(Calculator.s);
 
+        ExtremeCalculator superKrasserTaschenrechner = new ExtremeCalculator("KrasserTaschenrechner");
+        System.out.print(superKrasserTaschenrechner.getName() + ": ");
+        System.out.println(superKrasserTaschenrechner.add(1,2));
+
+        System.out.print(superKrasserTaschenrechner.getName() + ": ");
+        System.out.println(superKrasserTaschenrechner.substract(5,4));
+
     }
 }
 
